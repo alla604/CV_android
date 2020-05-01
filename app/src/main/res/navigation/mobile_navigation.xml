@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_about">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.resume.ui.about_me.AboutMeFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about_me">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_education"
+        android:name="com.example.resume.ui.education.EducationFragment"
+        android:label="@string/menu_education"
+        tools:layout="@layout/fragment_education" />
+
+    <fragment
+        android:id="@+id/nav_experience"
+        android:name="com.example.resume.ui.experience.ExperienceFragment"
+        android:label="@string/menu_experience"
+        tools:layout="@layout/fragment_experience">
+    <action
+        android:id="@+id/action_ExperienceFragment_to_JobFragment"
+        app:destination="@id/nav_experience_job" />
+        />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_experience_job"
+        android:name="com.example.resume.ui.experience.JobFragment"
+        android:label="@string/menu_experience"
+        tools:layout="@layout/fragment_experience_job">
+        <action
+            android:id="@+id/action_JobFragment_to_ExperienceFragment"
+            app:destination="@id/nav_experience" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_portfolio"
+        android:name="com.example.resume.ui.portfolio.PortfolioFragment"
+        android:label="@string/menu_portfolio"
+        tools:layout="@layout/fragment_portfolio">
+        <action
+            android:id="@+id/action_nav_portfolio_to_nav_portfolio_work"
+            app:destination="@id/nav_portfolio_work" />
+    </fragment>
+
+<fragment
+android:id="@+id/nav_portfolio_work"
+android:name="com.example.resume.ui.portfolio.MyWorkFragment"
+android:label="@string/menu_portfolio"
+tools:layout="@layout/fragment_portfolio_mywork">
+
+    <argument
+    android:name="myArg"
+    app:argType="string" />
+    <action
+        android:id="@+id/action_nav_portfolio_work_to_nav_portfolio"
+        app:destination="@id/nav_portfolio" />
+</fragment>
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.resume.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/fragment_contacts" />
+</navigation>

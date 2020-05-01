@@ -1,0 +1,37 @@
+<resources>
+    <string name="about_first_name">Алла</string>
+    <string name="about_second_name">Глушинская</string>
+    <string name="about_profession">графический дизайнер</string>
+
+    <string name="about_experience">Опыт работы:</string>
+    <string name="about_experience_count">10 лет</string>
+
+    <string name="about_where">Проживание:</string>
+    <string name="about_city">С.-Петербург</string>
+
+    <string name="about_education">Образование:</string>
+    <string name="about_education_coun">высшее</string>
+
+    <string name="about_scills">Ключевые навыки:</string>
+    <string name="about_photoshop">Adobe Photoshop</string>
+    <string name="about_illustrator">Adobe Illustrator</string>
+    <string name="about_inDesign">Adobe InDesign</string>
+    <string name="about_coreldraw">CorelDRAW</string>
+    <string name="about_figma">Figma</string>
+    <string name="about_maya">Autodesk Maya</string>
+    <string name="about_axure">Axure RP</string>
+    <string name="about_ae">Adobe After Effect</string>
+    <string name="about_html">HTML</string>
+    <string name="about_css">CSS</string>
+    <string name="about_java">Java</string>
+    <string name="about_android">Android SDK</string>
+
+    <string name="about_myperson">Обо мне:</string>
+    <string name="about_me_text"> Я профессиональный графический дизайнер. Работала в офисе и на фрилансе. Успешно выполнила ряд проектов для США и Канады, Европы и Китая. Выполняла работу для таких компаний, как 21st Century Fox, Animaccord («Маша и Медведь»), Аквафор, РЖД, салоны оптики «Счастливый взгляд» и др. Также обеспечивала графическим материалом компании, только вышедшие на рынок.</string>
+
+    <string name="about_hobby">Мои увлечения:</string>
+    <string name="about_diving">Дайвинг</string>
+    <string name="about_stretch">Гимнастика</string>
+    <string name="about_paint">Рисование</string>
+
+</resources>

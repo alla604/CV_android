@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/portfolio_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp"
+    android:layout_marginBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/portfolio_mywork_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aquaphor_posters" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/card_bottom_bar"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/portfolio_title"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:text="серия плакатов для компании Аквафор"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/portfolio_hashtag"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="#дизайн #фотоколлажиование #препресс"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

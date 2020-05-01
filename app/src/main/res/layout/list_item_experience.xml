@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:gravity="center_vertical"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="28dp"
+    android:paddingRight="24dp"
+    android:paddingBottom="28dp">
+
+    <ImageView
+        android:id="@+id/list_company_image_exp"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/amopix" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/title_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Медицинский центр XXI век"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/data_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2sp"
+            android:text="сентябрь 2010 — февраль 2012"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:textColor="#999"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дизайнер"
+            android:textAppearance="?attr/textAppearanceListItemSecondary" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="24dp"
+        android:src="@drawable/ic_right_arrow" />
+
+</LinearLayout>

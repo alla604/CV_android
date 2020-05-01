@@ -1,0 +1,12 @@
+<resources>
+    <string name="university_itmo">Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики</string>
+    <string name="data_itmo">2005-2011</string>
+    <string name="profession_itmo">Точной Механики и Технологий, Автоматизированные системы обработки информации и управления</string>
+    <string name="degree_itmo">Магистр</string>
+
+    <string name="university_limtu">Академия методов и техники управления «ЛИМТУ» при Санкт-Петербургском национальном исследовательском университете информационных технологий, механики и оптики</string>
+    <string name="data_limtu">2009-2010</string>
+    <string name="profession_limtu">Компьютерного проектирования и дизайна, Дизайн</string>
+    <string name="degree_limtu">Специалист</string>
+
+</resources>
